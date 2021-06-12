@@ -1,0 +1,183 @@
+HTML stands for hyper text markup language
+-- markup language are not like programming but they use tags to annotate document
+-- Where HTML tags indicate  where headings, images,list,links,line breaks and other components should go.
+
+-- Browser translate HTML documents into viewable webpages
+HTML was intended to faciliate content types
+
+-- Sever :  --Machines that hold shared resources-- Always connected to the network
+
+-- Clients ; -- MAchines for personal use(laptops and phone and all
+
+NETWORK:
+   the internet:-- LAN -local area network  WAN- Wide area network 
+
+
+What happens when you type URL in web  URL-uniform resource network
+
+URL - 3 parts 
+-protocol-how to connect
+-domain-the server
+-documents-the specific file needed
+-most page are made up of multiple files
+
+HTTP-hypertext transfer protocol
+HTTPS-secure hypertext transfer protocol
+FTP- file transfer protocol
+
+
+-Domain Name
+Identity the entity you want to coonect to--like umich.edu, google.com and etc
+
+IP addresses 
+-Internet protocol is the communication protocol thet identifies computer on networks. 16 diff. value
+
+
+tags:
+<h1> hello world </h1>
+start             closing tags
+
+  <img src="x.gif" />
+    self -closing tag
+some of tags :
+- Heading (block) 
+----<h1>,<h2>......and so on-----these tags syntax and semantics
+
+-Paragraps(block)
+----<p1>....</p>---should only contain inline elements
+
+-Divs(block)
+----<div>...</div>
+
+-Ordered lists
+--<ol>
+      <li>iteem one </li>
+      <li>item two  </li>
+</ol>
+
+
+-Unordered lists
+<ul>
+    <li>iteem one </li>
+    <li>item two  </li>
+</ul>
+
+
+line breaks
+<br>
+
+
+
+-Attributes
+---these provide additional information about an element
+---Always speciufied in the start tag
+---it is come in the name or value pairs
+
+images:
+-Image (inline)
+<img src="mypicture.jpg" alt="Image of Colleen"/>
+
+
+<img src="logo.jpg           -IMage filename
+     alt="company logo"      - Info for screen readers, broken links
+     title="AAA1 LLC"        - Displays on hover
+     class="thumbnail"/>     -Extra formatting 
+
+
+More Attributes:
+-class-applies special properties to groups of elements
+id-specific a unique id to one element on the page
+style-specifies a certain visual style(avoid this one)
+accesskey-a shortcut key to activate an element
+tabindex-the order elements will come into focus using the tab key
+
+
+special entities
+<    &lt; --less than
+>    &gt; --greater than
+copy &copy; --
+blank space &nbsp
+
+
+ semantic tags
+
+in the beginning there was div tag
+
+
+<header> tag
+
+<header>
+      <h1> This is the title</h1>
+      <h2> the author is colleen</h2>
+</header>
+
+
+<nav> tag
+
+<nav>
+    <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#history">history</a></li>
+        <li><a href="#development">development</a></li>
+    <ul>
+<nav>
+
+
+<footer> tag
+
+<footer>
+       &copy; 2015 by colleen van lent<br>
+       <a href="http://www.intro-webdesign.com/Html5"> Introduction to HTML5</a>
+</footer>
+
+actuall code:
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>MY first Page</title>
+</head>
+<body>
+	<main><p> This is MY MAIN CODE</p></main>
+	<footer>
+		<p> think of a more interesting footer</p>
+	</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+W3C is a validator  of code
+
+
+Default image size 
+
+8:59 AM 6/7/2021
+
+use font awesome
+
+hyperlinks
+
+links are what make the web a web
+
+types of links 
+-Absolute
+-Relative
+-Internal
+-Graphical
+
+
+targets:
+-Anchors can take a target attribute
+   _self-default action
+   _blank-oprn in nwe tab 
+   _top 
+
+TO add image screenshot in phone
+
+
+video is similar to add
+
